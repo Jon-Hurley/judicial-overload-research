@@ -3,7 +3,7 @@
     "configurations": [
       {
         "name": "Time To Decision By Chief",
-        "type": "python",
+        "type": "debugpy",
         "request": "launch",
         "program": "${workspaceFolder}/time_to_decision_by_chief.py",
         "console": "integratedTerminal",
@@ -11,7 +11,7 @@
       },
       {
         "name": "Time To Decision By President",
-        "type": "python",
+        "type": "debugpy",
         "request": "launch",
         "program": "${workspaceFolder}/time_to_decision_by_pres_term.py",
         "console": "integratedTerminal",
