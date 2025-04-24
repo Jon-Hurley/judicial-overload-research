@@ -16,6 +16,22 @@
         "program": "${workspaceFolder}/time_to_decision_by_pres_term.py",
         "console": "integratedTerminal",
         "python": "/opt/anaconda3/envs/POL491/bin/python"
-      }
+      },
+        {
+            "name": "Number of Decisions By Chief",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/count_of_decisions_by_chief.py",
+            "console": "integratedTerminal",
+            "python": "/opt/anaconda3/envs/POL491/bin/python"
+        },
+        {
+            "name": "Number of Decisions By President",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/count_of_decisions_by_pres_term.py",
+            "console": "integratedTerminal",
+            "python": "/opt/anaconda3/envs/POL491/bin/python"
+        }
     ]
   }
