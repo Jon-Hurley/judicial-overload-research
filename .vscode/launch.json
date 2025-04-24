@@ -2,10 +2,18 @@
     "version": "0.2.0",
     "configurations": [
       {
-        "name": "Run Time-to-Decision Script",
+        "name": "Time To Decision By Chief",
         "type": "python",
         "request": "launch",
         "program": "${workspaceFolder}/time_to_decision_by_chief.py",
+        "console": "integratedTerminal",
+        "python": "/opt/anaconda3/envs/POL491/bin/python"
+      },
+      {
+        "name": "Time To Decision By President",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/time_to_decision_by_pres_term.py",
         "console": "integratedTerminal",
         "python": "/opt/anaconda3/envs/POL491/bin/python"
       }
