@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run Time-to-Decision Script",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/time_to_decision_by_chief.py",
+        "console": "integratedTerminal",
+        "python": "/opt/anaconda3/envs/POL491/bin/python"
+      }
+    ]
+  }
