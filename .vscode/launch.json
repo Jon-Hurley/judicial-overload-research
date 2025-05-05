@@ -32,6 +32,22 @@
             "program": "${workspaceFolder}/count_of_decisions_by_pres_term.py",
             "console": "integratedTerminal",
             "python": "/opt/anaconda3/envs/POL491/bin/python"
+        },
+        {
+          "name": "Number of Decisions By Year",
+          "type": "debugpy",
+          "request": "launch",
+          "program": "${workspaceFolder}/count_of_decisions_by_year.py",
+          "console": "integratedTerminal",
+          "python": "/opt/anaconda3/envs/POL491/bin/python"
+        },
+        {
+          "name": "Time to Decision By Year",
+          "type": "debugpy",
+          "request": "launch",
+          "program": "${workspaceFolder}/time_to_decision_by_year.py",
+          "console": "integratedTerminal",
+          "python": "/opt/anaconda3/envs/POL491/bin/python"
         }
     ]
   }
