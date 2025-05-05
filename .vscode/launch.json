@@ -48,6 +48,22 @@
           "program": "${workspaceFolder}/time_to_decision_by_year.py",
           "console": "integratedTerminal",
           "python": "/opt/anaconda3/envs/POL491/bin/python"
+        },
+        {
+          "name": "Average Opinion Length By Year",
+          "type": "debugpy",
+          "request": "launch",
+          "program": "${workspaceFolder}/plot_opinion_length.py",
+          "console": "integratedTerminal",
+          "python": "/opt/anaconda3/envs/POL491/bin/python"
+        },
+        {
+          "name": "Number of Opinions By Year",
+          "type": "debugpy",
+          "request": "launch",
+          "program": "${workspaceFolder}/plot_opinion_count.py",
+          "console": "integratedTerminal",
+          "python": "/opt/anaconda3/envs/POL491/bin/python"
         }
     ]
   }
