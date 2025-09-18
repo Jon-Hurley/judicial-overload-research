@@ -17,7 +17,9 @@ def plot_average_opinion_length(df):
     plt.ylabel('Average Opinion Length (words)')
     plt.grid(True)
     plt.tight_layout()
-    plt.show()
+    # plt.show()
+    # save plot
+    plt.savefig('average_opinion_length_per_year.png')
 
 if __name__ == '__main__':
     file_path = 'courtdata/supreme_court_opinion_lengths.csv'  # Update if needed

@@ -83,7 +83,9 @@ def plot_decisions_by_president(decision_counts):
         count = decision_counts[president]
         ax.text(i, count + 5, chief, ha='center', va='bottom', fontsize=8, color='black')
 
-    plt.show()
+    # plt.show()
+    # save plot
+    plt.savefig('decisions_by_presidential_term.png')
 
 if __name__ == '__main__':
     file_path = 'scdata/SCDB_2024_01_caseCentered_Citation.csv'  # Update as needed

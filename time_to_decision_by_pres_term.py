@@ -85,7 +85,9 @@ def plot_average_days_by_president(avg_days):
         ax.text(i, value + 2, chief, ha='center', va='bottom', fontsize=8, color='black')
 
     plt.tight_layout()
-    plt.show()
+    # plt.show()
+    # save plot
+    plt.savefig('average_days_to_decision_by_president.png')
 
 if __name__ == '__main__':
     file_path = 'scdata/SCDB_2024_01_caseCentered_Citation.csv'  # Update if needed
