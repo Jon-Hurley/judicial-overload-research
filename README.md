@@ -9,6 +9,21 @@ The main questions addressed are:
 - How have opinion lengths and the time taken to reach decisions evolved?
 - Are there patterns in caseload or decision times by presidential term or Chief Justice?
 
+## Figures
+
+### Average Days to Decision
+![Average Days to Decision by Chief Justice](figures/average_days_to_decision_by_chief.png)
+![Average Days to Decision by Presidential Term](figures/average_days_to_decision_by_president.png)
+![Average Days to Decision by Year](figures/average_days_to_decision_by_year.png)
+
+### Decisions
+![Decisions by Chief Justice](figures/decisions_by_chief_justice.png)
+![Decisions by Presidential Term](figures/decisions_by_presidential_term.png)
+![Decisions by Year](figures/decisions_by_year.png)
+
+### Opinions
+![Supreme Court Opinions Per Year](figures/supreme_court_opinions_per_year.png)
+
 ## Repository Structure
 
 - **Python Scripts**:
@@ -54,7 +69,6 @@ pip install pandas matplotlib
 
 ## Notes
 
-- This repository is private and is intended for academic research purposes.
 - For more information or to see additional scripts, visit the [GitHub repository](https://github.com/Jon-Hurley/491-work).
 
 ---
