@@ -1,0 +1,21 @@
+name: Create Figures
+
+on:
+    push:
+        paths:
+            - 'create_figures.sh'
+            - '.github/workflows/create_figures.yaml'
+    workflow_dispatch:
+
+jobs:
+    create-figures:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v3
+
+            - name: Make script executable
+              run: chmod +x ./create_figures.sh
+
+            - name: Run create_figures.sh
+              run: ./create_figures.sh
