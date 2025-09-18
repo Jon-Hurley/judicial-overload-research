@@ -21,7 +21,7 @@ def plot_decisions_by_year(decision_counts):
     plt.grid(axis='y')
     # plt.show()
     # save plot
-    plt.savefig('decisions_by_year.png')
+    plt.savefig('figures/decisions_by_year.png')
 
 if __name__ == '__main__':
     file_path = 'scdata/SCDB_2024_01_caseCentered_Citation.csv'  # Update as needed

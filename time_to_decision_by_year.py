@@ -34,7 +34,7 @@ def plot_average_days(avg_days_by_year):
     plt.grid(axis='y')
     # plt.show()
     # save plot
-    plt.savefig('average_days_to_decision_by_year.png')
+    plt.savefig('figures/average_days_to_decision_by_year.png')
 
 if __name__ == '__main__':
     file_path = 'scdata/SCDB_2024_01_caseCentered_Citation.csv'  # Change this to your actual file path

@@ -85,7 +85,7 @@ def plot_decisions_by_president(decision_counts):
 
     # plt.show()
     # save plot
-    plt.savefig('decisions_by_presidential_term.png')
+    plt.savefig('figures/decisions_by_presidential_term.png')
 
 if __name__ == '__main__':
     file_path = 'scdata/SCDB_2024_01_caseCentered_Citation.csv'  # Update as needed

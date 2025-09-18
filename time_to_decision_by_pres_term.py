@@ -87,7 +87,7 @@ def plot_average_days_by_president(avg_days):
     plt.tight_layout()
     # plt.show()
     # save plot
-    plt.savefig('average_days_to_decision_by_president.png')
+    plt.savefig('figures/average_days_to_decision_by_president.png')
 
 if __name__ == '__main__':
     file_path = 'scdata/SCDB_2024_01_caseCentered_Citation.csv'  # Update if needed

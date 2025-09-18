@@ -15,7 +15,7 @@ def plot_opinion_count(df):
     plt.tight_layout()
     # plt.show()
     # save plot
-    plt.savefig('supreme_court_opinions_per_year.png')
+    plt.savefig('figures/supreme_court_opinions_per_year.png')
 
 if __name__ == '__main__':
     file_path = 'courtdata/supreme_court_opinion_lengths.csv'  # Update if needed
