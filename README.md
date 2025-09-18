@@ -49,7 +49,7 @@ The main questions addressed are:
 
 You can install the dependencies using pip:
 ```bash
-pip install pandas matplotlib
+pip install -r requirements.txt
 ```
 
 ## Usage
