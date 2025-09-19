@@ -1,4 +1,4 @@
-# 491-work
+# Case Overload in the Judicial Branch
 
 This repository contains analysis and visualization scripts for a political science capstone project investigating whether the U.S. judicial branch—specifically the Supreme Court—can be overwhelmed by the executive (or other branches) via caseload. The project explores trends in Supreme Court opinions, decision times, and their relationship to presidential and judicial leadership eras.
 
